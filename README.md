@@ -58,8 +58,7 @@ python -m pytest -q
   is not published, to avoid releasing a ready-made forgery tool).
 - `data/physics_control_hydroxyapatite_xrd.csv`: synthetic, physically consistent control.
 
-This repository contains **no human-derived or real measurement data**. The same files are on Hugging Face:
-[masaghiri/concord-m-pilot](https://huggingface.co/datasets/masaghiri/concord-m-pilot).
+This repository contains **no human-derived or real measurement data**.
 
 ## Author and license
 
