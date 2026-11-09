@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this pilot, please cite it as below."
+title: "CONCORD-M: cross-technique consistency for materials data (pilot)"
+type: software
+authors:
+  - family-names: Saghiri
+    given-names: M. Ali
+version: 0.1.0
+date-released: 2026-11-09
+license: MIT
+repository-code: "https://github.com/masaghiri/concord-m"
+keywords:
+  - research security
+  - research integrity
+  - X-ray diffraction
+  - materials characterization
+  - AI-generated data

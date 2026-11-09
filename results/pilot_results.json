@@ -1,0 +1,46 @@
+{
+ "physics_control": [
+  {
+   "rule": "R1 single lattice (Bragg)",
+   "status": "PASS",
+   "evidence": "14 resolved peaks; best single lattice a = 9.410 Å, c = 6.888 Å; rms misfit 0.003°; 0 peaks off beyond tolerance (worst 0.00°)"
+  },
+  {
+   "rule": "R2 Cu Kα1/Kα2 doublet",
+   "status": "PASS",
+   "evidence": "doublet model fits better in 8 of 10 isolated peaks above 40° (expected: most)"
+  },
+  {
+   "rule": "R3 counting (Poisson) noise",
+   "status": "PASS",
+   "evidence": "noise grows with intensity^0.55 (Poisson counting: ^0.50)"
+  },
+  {
+   "rule": "R4 whole-number counts",
+   "status": "PASS",
+   "evidence": "0% of points are not whole numbers"
+  }
+ ],
+ "ai_forgery": [
+  {
+   "rule": "R1 single lattice (Bragg)",
+   "status": "PASS",
+   "evidence": "12 resolved peaks; best single lattice a = 9.414 Å, c = 6.881 Å; rms misfit 0.004°; 0 peaks off beyond tolerance (worst 0.00°)"
+  },
+  {
+   "rule": "R2 Cu Kα1/Kα2 doublet",
+   "status": "PASS",
+   "evidence": "doublet model fits better in 8 of 12 isolated peaks above 40° (expected: most)"
+  },
+  {
+   "rule": "R3 counting (Poisson) noise",
+   "status": "PASS",
+   "evidence": "noise grows with intensity^0.61 (Poisson counting: ^0.50)"
+  },
+  {
+   "rule": "R4 whole-number counts",
+   "status": "PASS",
+   "evidence": "0% of points are not whole numbers"
+  }
+ ]
+}
